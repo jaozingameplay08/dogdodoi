@@ -1,0 +1,133 @@
+body {
+    background: white;
+    color: #333;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 60px;
+}
+
+header .logo {
+    width: 90px;
+}
+
+nav a {
+    margin-left: 40px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #333;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    padding: 60px;
+    gap: 60px;
+}
+
+.hero-text {
+    width: 50%;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 26px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 14px 28px;
+    background: #ff3e72;
+    color: #fff;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.hero-img img {
+    width: 550px;
+    border-radius: 10px;
+}
+
+.beneficios {
+    padding: 80px 60px;
+    text-align: center;
+}
+
+.beneficios h2 {
+    font-size: 38px;
+    margin-bottom: 40px;
+}
+
+.benef-grid {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.benef-item {
+    background: #f6f6f6;
+    padding: 40px;
+    border-radius: 12px;
+    width: 260px;
+}
+
+.benef-item h3 {
+    font-size: 22px;
+}
+
+.avaliacao {
+    padding: 80px 60px;
+    background: #fff2f9;
+    text-align: center;
+}
+
+.avaliacao h2 {
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.avaliacao p {
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.fone {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+input {
+    padding: 14px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.btn-form {
+    padding: 14px;
+    background: #ff3e72;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+}
